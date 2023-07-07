@@ -1,31 +1,35 @@
-var num1 = parseFloat(prompt("Enter a Value", "0"));
-var num2 = parseFloat(prompt("Enter a Value", "0"));
-
-document.getElementById("num1-el").textContent = num1
-document.getElementById("num2-el").textContent = num2
+var num1Input = document.getElementById("num1-input");
+var num2Input = document.getElementById("num2-input");
 
 let sumEl = document.getElementById("sum-el")
 
 function add() {
-    let result = num1 + num2
+    var num1 = num1Input.value;
+    var num2 = num2Input.value;
+    let result = parseFloat(num1) + parseFloat(num2);
     sumEl.textContent = "Sum: " + result
 }
 
 
 function subtract() {
-    let result = num1 - num2
+    var num1 = num1Input.value;
+    var num2 = num2Input.value;
+    let result = parseFloat(num1) - parseFloat(num2);
     sumEl.textContent = "Sum: " + result
 }
 
 
 function divide() {
-    let result = num1 / num2
+    var num1 = num1Input.value;
+    var num2 = num2Input.value;
+    let result = parseFloat(num1) / parseFloat(num2);
     sumEl.textContent = "Sum: " + result
 }
 
 
 function multiply() {
-    let result = num1 * num2
+    var num1 = num1Input.value;
+    var num2 = num2Input.value;
+    let result = parseFloat(num1) * parseFloat(num2);
     sumEl.textContent = "Sum: " + result
 }
-
