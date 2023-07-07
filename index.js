@@ -7,7 +7,7 @@ function add() {
     var num1 = num1Input.value;
     var num2 = num2Input.value;
     let result = parseFloat(num1) + parseFloat(num2);
-    sumEl.textContent = "Sum: " + result
+    sumEl.textContent = "Result: " + result
 }
 
 
@@ -15,7 +15,7 @@ function subtract() {
     var num1 = num1Input.value;
     var num2 = num2Input.value;
     let result = parseFloat(num1) - parseFloat(num2);
-    sumEl.textContent = "Sum: " + result
+    sumEl.textContent = "Result: " + result
 }
 
 
@@ -23,7 +23,7 @@ function divide() {
     var num1 = num1Input.value;
     var num2 = num2Input.value;
     let result = parseFloat(num1) / parseFloat(num2);
-    sumEl.textContent = "Sum: " + result
+    sumEl.textContent = "Result: " + result
 }
 
 
@@ -31,5 +31,5 @@ function multiply() {
     var num1 = num1Input.value;
     var num2 = num2Input.value;
     let result = parseFloat(num1) * parseFloat(num2);
-    sumEl.textContent = "Sum: " + result
+    sumEl.textContent = "Result: " + result
 }
